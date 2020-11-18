@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>To-do-Liste</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src='todo.js'></script>
+    </head>
+
+    <body onload="init()">
+        <div class="header">
+                <h1>To-Do-Liste</h1>
+                
+        </div>
+
+        <div class="input">
+                <input class="inputfield" id="todo" placeholder="To-do eingeben"> <button class="button" onclick="addCurrentToDo()"><img class="pen" src="img/pen.png"></button>
+        </div>
+      
+        <div class="list"> 
+            <img class="board" src="img/board1.png">
+            <ul class="todos" id='list'></ul>
+        </div>
+
+    </body>
+</html>
